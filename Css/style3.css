@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFF5F0; 
+    color: #4A4A4A; 
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    padding: 20px;
+    background-color: #FF7F50; 
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; 
+    gap: 15px;
+    margin: 10px 0 0 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: color 0.3s ease;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    color: #FF6F00;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+article {
+    background-color: #ffffff;
+    border-left: 5px solid #FF7F50; 
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+article h2 {
+    color: #D35400;
+    margin-bottom: 10px;
+}
+
+article address {
+    font-style: normal;
+    color: #888;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    display: block;
+}
+
+article time {
+    display: block;
+    font-size: 0.85rem;
+    color: #A0522D;
+    margin-bottom: 15px;
+}
+
+article p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+article footer {
+    background-color: #FFE4E1; 
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 6px;
+    border-top: 2px solid #FF7F50;
+    color: #4A4A4A;
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+article footer p {
+    margin: 0;
+}
+
+article footer a {
+    color: #FF7F50; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+article footer a:hover {
+    color: #D35400; 
+}
+
+footer {
+    text-align: center;
+    padding: 20px 15px;
+    background-color: #4E342E;
+    color: #f0e6de;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+footer a {
+    color: #FF7F50; 
+    text-decoration: none;
+    margin: 0 8px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #D35400; 
+}
+
+footer p {
+    margin: 6px 0;
+}

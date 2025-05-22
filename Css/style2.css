@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFF5F0; 
+    color: #4A4A4A; 
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    padding: 20px;
+    background-color: #FF7F50;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; 
+    gap: 15px;
+    margin: 10px 0 0 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: color 0.3s ease;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    color: #FF6F00;
+    background-color: rgba(255 255 255 / 0.2);
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+article {
+    background-color: #fff5f0; 
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(255, 127, 80, 0.15); 
+    padding: 20px;
+    flex: 1 1 280px;
+    max-width: 300px;
+    text-align: center;
+}
+
+article img {
+    margin-bottom: 15px;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+article h2 {
+    color: #D35400; 
+    margin-bottom: 10px;
+}
+
+article h3 {
+    color: #FF7F50; 
+    margin-bottom: 8px;
+}
+
+article p {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+
+.link-seccion {
+    display: inline-block;
+    margin-top: 12px;
+    color: #FF7F50;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.link-seccion:hover {
+    border-color: #D35400;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 15px;
+    background-color: #4E342E;
+    color: #f0e6de;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+footer a {
+    color: #FF7F50; 
+    text-decoration: none;
+    margin: 0 8px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #D35400; 
+}
+
+footer p {
+    margin: 6px 0;
+}

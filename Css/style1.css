@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFF5F0; 
+    color: #4A4A4A; 
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    padding: 20px;
+    background-color: #FF7F50; /* salmón suave */
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; 
+    gap: 15px;
+    margin: 10px 0 0 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: color 0.3s ease;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    color: #FF6F00;
+    background-color: rgba(255 255 255 / 0.2);
+}
+
+section {
+    text-align: center;
+}
+
+main article {
+    text-align: center;
+}
+
+main article h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #D35400; /* naranja oscuro */
+}
+
+main article p {
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+main article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+td {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(255, 127, 80, 0.15); /* sombra salmón suave */
+    vertical-align: top;
+    width: 300px;
+}
+
+article h3 {
+    margin-top: 0;
+    color: #D35400;
+    font-size: 1.2em;
+}
+
+article p {
+    color: #555;
+    line-height: 1.5;
+}
+
+tr {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 15px;
+    background-color: #4E342E; /* marrón oscuro */
+    color: #f0e6de; /* beige claro para buen contraste */
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+footer a {
+    color: #FF7F50; /* salmón */
+    text-decoration: none;
+    margin: 0 8px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #D35400; /* naranja oscuro */
+}
+
+footer p {
+    margin: 6px 0;
+}
+
+section table tr td article a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #FF7F50; /* color salmón */
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
